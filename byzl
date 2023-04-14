@@ -1,0 +1,1 @@
+./configure --enable-fpecc --enable-opensslextra --enable-ecc --enable-ecccustcurves CFLAGS="-DWOLFSSL_TEST_CERT -DWOLFSSL_DER_TO_PEM -DHAVE_ECC_KOBLITZ -DWOLFSSL_PUBLIC_MP -DUSE_ECC_B_PARAM -DWOLFSSL_PUBLIC_ECC_ADD_DBL"&&make&&sudo make install
